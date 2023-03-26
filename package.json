@@ -1,0 +1,26 @@
+{
+  "name": "todo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "@types/cron": "^2.0.1",
+    "@types/node": "^18.15.6",
+    "cron": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "mongodb": "^5.1.0",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.11.0",
+    "telegraf": "^4.12.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
